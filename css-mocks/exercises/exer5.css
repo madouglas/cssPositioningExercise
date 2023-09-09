@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: absolute;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position:absolute;
+  right:-1493px;
+  bottom:-527px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position:absolute;
+  top:-200px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position:absolute;
+  left:-1593px;
+  top:-427px;
+  /*Done with a 1920x1080 monitor*/
+}
+

@@ -1,0 +1,56 @@
+﻿div{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius:5px;
+    flex-direction: row;
+
+}
+/*
+section p{
+    display:none;
+}
+*/
+section{
+    position:relative;
+}
+img {
+    border-radius: 7px;
+    outline: solid rgb(241, 172, 103) 3px;
+    height: 250px;
+    transition: .2s;
+}
+
+img:hover{
+    filter: brightness(80%);
+}
+
+img:hover + p {
+    display: initial;
+    color: rgba(255, 255, 255, 1)
+}
+
+p{
+    position:absolute;
+    display:none;
+    transition: .2s;
+    font-size:40px;
+    color:rgba(255, 255, 255, 0);
+    font-family:serif;
+}
+
+#mouse p{
+    left:80px;
+    top:10px;
+}
+
+#dance p{
+    top:30px;
+    left:35px;
+}
+
+#five p{
+   top:32px;
+   left: 100px;
+}

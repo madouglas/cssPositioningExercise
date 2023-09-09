@@ -1,0 +1,13 @@
+﻿button{
+    background-color: #57A6F9;
+    height: 25px;
+    border-radius:4px;
+    color: #ffffff;
+    border:none
+}
+button:hover{
+    background-color: #3471af;
+}
+    button:active {
+        outline: 1px solid #3471af
+    }
